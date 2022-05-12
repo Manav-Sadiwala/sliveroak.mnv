@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: aquamarine;
+            position: absolute;
+            animation: demo 10s infinite;
+        }
+        div :hover{
+            transform: rotate(360 deg);
+        }
+        @keyframes demo {
+            0%{ background-color: aqua; left: 0px; top:0px; transform: rotate(0deg);}
+            25%{ background-color: rgb(70, 143, 143); left: 500px; top:0px; transform: rotate(90deg);}
+            50%{ background-color: rgb(255, 123, 0); left: 500px; top:500px; transform: rotate(180deg);}
+            75%{ background-color: rgb(179, 255, 0); left: 0px; top: 200px; transform: rotate(270deg);}
+            100%{ background-color: rgb(255, 0, 212); left: 0px; top:0px; transform: rotate(360deg);}
+            
+        }
+    </style>
+</head>
+<body>
+    <div><img src="Doraemon.png" alt=""><p align="center"><b>(MNV)Doraemon</b></p> </div>
+</body>
+</html>
