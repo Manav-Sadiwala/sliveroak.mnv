@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        color: aliceblue;
+        padding: 20px;
+        margin: 20px;
+        animation-duration: 10s;
+        transition: 5s;
+    }
+    div.Translate:hover{
+        transform: translate(100px,50px);
+    }
+    div.rotate:hover{
+        transform: rotate(360deg);
+    }
+    div.rotate3d:hover{
+        transform: rotate3d(1, 1, 0, 360deg);
+    }
+    div.skew:hover{
+        transform: skew(45deg);
+    }
+</style>
+</head>
+<body>
+    <div class="Translate">Translate</div>
+    <div class="rotate">Rotate</div>
+    <div class="rotate3d">rotate 3d</div>
+    <div class="skew">Skew</div>
+    
+</body>
+</html>
