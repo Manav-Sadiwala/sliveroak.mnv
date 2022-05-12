@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    margin: 20px 20px;    
+}
+nav .logo{
+    width: 30%;
+    float: left;
+    display: inline;
+}
+h1{
+    font-size: 27px;
+    margin-top: 7px;
+    margin-left: 15px;
+    color: #dddddd;
+}
+nav .list{
+    display: inline;
+    width: 70%;
+    float: left;
+    margin-left: 54%;   
+}
+.l{
+    padding: 0,5%,0,0;
+}
+nav li {
+    display: inline;
+    float: left;
+    color: darkgrey;
+    padding: 7px;
+  }
+  
+nav li a {
+    display: flex;
+    padding: 11px;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #dddddd;
+  }
+nav li a:hover {
+    background-color: rgb(221, 172, 172 );
+    color: rgb(49, 28, 28);
+  }
+/* ===========================    Main    ======================================= */
+.main .main2{
+    margin: 0 3% 0 3%;
+    background-color: rgba(202, 138, 138, 0.517); 
+    display: flex; 
+    padding: 2%; 
+}
+.main .main2 .image, .content{
+    width: 50%;
+}
+.main .main2 .image img{
+    width: 100%;  
+}
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2%;
+}
+.content{
+  padding: 0 2% 2% 2%; 
+}
+.main .main2 .content p{
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #dddddd;
+    padding-top: 20px;
+}
+.h3{
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.h3 a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+/* ++++++++++++++++++++++++++++      Footer     +++++++++++++++++++++++++++++++++++ */
+
+.box2{
+    background-color: rgb(38, 43, 43);
+    margin: 0 3% 3% 3%;
+    color: #dddddd;
+}
+.box2 .section2{
+    display: flex; 
+}
+.box2 .section2 .three{
+   width: 33%;
+}
+.head-Q h4{
+    font-size: 23px;
+    color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.box2 .section2 .three .three3{
+    display: flex;
+    padding: 20px;   
+}
+.box2 .section2 .three img{
+    width: 100%;
+}
+.box2 .section2 .three .three3 .photo{
+    width: 30%;
+}
+.box2 .section2 .three .three3 .text{
+    width: 70%;
+}
+.box2 .section2 .three .text p{
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.three{
+    padding: 10px;
+}
+h4.d{
+    font-size: 17px;
+    color: #2dc75b;
+    padding-left: 40px;
+   
+}
+/* ------------------sectoin 2------------------------------ */
+.box2 .div1{ 
+    display: flex;
+}
+.box2 .div1 .part1{
+    width: 70%;
+}
+.box2 .div1 .part1, .part2{
+    padding: 20px;
+}
+.box2 .div1 .part2{
+    width: 30%;
+}
+.box2 .div1 .part1 .part1-1{
+    display: flex;
+}
+.last-h{
+    color: rgb(238, 238, 238);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.box2 .div1 .part1 .part1-1 .img1, .p1{
+    width: 50%;
+}
+.box2 .div1 .part1 .part1-1 .img1 img{
+    width: 100%;
+}
+.box2 .div1 .part1 .part1-1 .p1 p{
+    color: #dddddd;
+    font-size: 22px;
+    padding:0 20px 20px 20px; 
+}
+.footer{
+    background-color: aqua;
+    width: 100%;
+}
+h3.last-h1{
+    color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.end p{
+    color: #dddddd;
+    font-size: 22px;
+    width: 100%;
+    margin-top: 10px;
+}
+
